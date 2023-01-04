@@ -8,4 +8,6 @@ This project was created during the marathon **GoIT** which included the followi
    * Install VS Code and extensios
    * Create index.html with 5 heading levels
 2. Day 2:
-   * Create
+   * Create resume on pure HTML with using tags
+   * Add responsive link for telephone and e-mail
+   * Add photo
