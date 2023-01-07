@@ -12,6 +12,9 @@ This project was created during the marathon **GoIT** which included the followi
    * Add responsive link for telephone and e-mail
    * Add photo
 3. Day 3-4:
-   *Add google-fonts
-   *Create CSS-styles for sidebar
-   *Edit html-file
+   * Add google-fonts
+   * Create CSS-styles for sidebar
+   * Edit html-file
+4. Day 5:
+   * Create CSS-styles for main-content
+   * Edit html-file

@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,400&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@0,700;1,400&display=swap"
       rel="stylesheet"
     />
     <title>My resume</title>
@@ -20,10 +20,10 @@
       <!-- Main content -->
       <div class="main-content">
         <!-- About me -->
-        <div>
-          <h2 class="my-profession">Back-End Python Developer</h2>
-          <h1>Kurochkin Aleksandr</h1>
-          <p>
+        <div class="about-me-container">
+          <h2 class="my-profession">Backend Python Developer</h2>
+          <h1 class="my-name">Kurochkin Aleksandr</h1>
+          <p class="my-deskription">
             Programming is hard... Programming is a routine, only slightly
             diluted with creativity and a sense of creation. But whoever is
             afraid of wolves does not go into the forest.
@@ -31,108 +31,129 @@
         </div>
 
         <!-- Projects -->
-        <div>
-          <h3>Projects</h3>
-          <ol>
+        <div class="projects-container">
+          <h3 class="main-content-tytle">Projects</h3>
+          <ol class="project-list">
             <li class="project-item">
-              <a href="https://github.com/ASKurochkin/NRG"
+              <a href="https://github.com/ASKurochkin/NRG" class="project-link"
                 >"NRG" - calculation of energy resources
               </a>
-              ...[ Python, Django, HTML, Bootstrap ]
+              <span class="project-item-descr"
+                >......[ Python, Django, HTML, Bootstrap ]</span
+              >
             </li>
-            <li>
-              <a href="https://github.com/ASKurochkin/Resume">My resume</a>
-              ............................................................[
-              HTML, CSS ]
+            <li class="project-item">
+              <a
+                href="https://github.com/ASKurochkin/Resume"
+                class="project-link"
+                >My resume</a
+              >
+              <span class="project-item-descr"
+                >........................................................................[
+                HTML, CSS ]</span
+              >
             </li>
-            <li>
-              <a href="https://github.com/ASKurochkin/BanderogusBot"
+            <li class="project-item">
+              <a
+                href="https://github.com/ASKurochkin/BanderogusBot"
+                class="project-link"
                 >Java-marathon (Telegram-Bot)</a
               >
-              .....................[ Java ]
+              <span class="project-item-descr"
+                >..........................[ Java ]</span
+              >
             </li>
           </ol>
         </div>
 
         <!-- Work expirience block -->
-        <h3>Work Experience</h3>
+        <div class="work-expiriense-container">
+          <h3 class="main-content-tytle">Work Experience</h3>
 
-        <!-- Company 1 -->
-        <div>
-          <h4>Lead Power Engineer</h4>
-          <p>December 2018 - up to now | Zaporozhye Metallurgical Plant</p>
-          <ul>
-            <li>
-              Management of the energy management system of the enterprise
-            </li>
-            <li>
-              Development of methods and control of energy consumption planning
-            </li>
-            <li>
-              Drawing up programs for the development of energy accounting
-              systems
-            </li>
-            <li>Preparation of state statistical reports</li>
-          </ul>
-        </div>
+          <!-- Company 1 -->
+          <div class="work-epirience-place">
+            <h4 class="work-expirience-position">
+              Lead Power Engineer
+              <span class="work-expirience-company"
+                >Zaporozhye Metallurgical Plant</span
+              >
+            </h4>
+            <p class="work-period">December 2018 - up to now | Ukraine</p>
+            <ul class="work-duties-list">
+              <li class="work-duties">
+                Management of the energy management system of the enterprise
+              </li>
+              <li class="work-duties">
+                Development of methods and control of energy consumption
+                planning
+              </li>
+              <li class="work-duties">
+                Drawing up programs for the development of energy accounting
+                systems
+              </li>
+              <li class="work-duties">
+                Preparation of state statistical reports
+              </li>
+            </ul>
+          </div>
 
-        <!-- Company 2 -->
-        <div>
-          <h4>Deputy Chief Power Engineer</h4>
-          <p>April 2017 - December 2018 | Zaporozhye Coke Plant</p>
-          <ul>
-            <li>Operational management of the department</li>
-            <li>Organization of power equipment repairs</li>
-            <li>
-              Management of the energy management system of the enterprise
-            </li>
-            <li>
-              Development of methods and control of energy consumption planning
-            </li>
-          </ul>
-        </div>
+          <!-- Company 2 -->
+          <div class="work-epirience-place">
+            <h4 class="work-expirience-position">
+              Deputy Chief Power Engineer
+              <span class="work-expirience-company">Zaporozhye Coke Plant</span>
+            </h4>
+            <p class="work-period">April 2017 - December 2018 | Ukraine</p>
+            <ul class="work-duties-list">
+              <li class="work-duties">
+                Operational management of the department
+              </li>
+              <li class="work-duties">
+                Organization of power equipment repairs
+              </li>
+              <li class="work-duties">
+                Management of the energy management system of the enterprise
+              </li>
+              <li class="work-duties">
+                Development of methods and control of energy consumption
+                planning
+              </li>
+            </ul>
+          </div>
 
-        <!-- Company 2 -->
-        <div>
-          <h4>Deputy Chief Power Engineer</h4>
-          <p>April 2017 - December 2018 | Zaporozhye Coke Plant</p>
-          <ul>
-            <li>Operational management of the department</li>
-            <li>Organization of power equipment repairs</li>
-            <li>
-              Management of the energy management system of the enterprise
-            </li>
-            <li>
-              Development of methods and control of energy consumption planning
-            </li>
-          </ul>
-        </div>
-
-        <!-- Company 3 -->
-        <div>
-          <h4>Acting Chief Power Engineer</h4>
-          <p>July 2016 - March 2017 | Enakievo Coke Plant</p>
-          <ul>
-            <li>
-              Organization of work (contractual and technical) for the
-              uninterrupted supply of consumers of the enterprise with energy
-              resources
-            </li>
-            <li>
-              Organization of control over the technical condition and safe
-              operation of power equipment
-            </li>
-            <li>Preparation of conclusions for various design solutions</li>
-            <li>Control of energy consumption in all departments</li>
-          </ul>
+          <!-- Company 3 -->
+          <div class="work-epirience-place">
+            <h4 class="work-expirience-position">
+              Acting Chief Power Engineer
+              <span class="work-expirience-company">Enakievo Coke Plant</span>
+            </h4>
+            <p class="work-period">July 2016 - March 2017 | Ukraine</p>
+            <ul class="work-duties-list">
+              <li class="work-duties">
+                Organization of work (contractual and technical) for the
+                uninterrupted supply of consumers of the enterprise with energy
+                resources
+              </li>
+              <li class="work-duties">
+                Organization of control over the technical condition and safe
+                operation of power equipment
+              </li>
+              <li class="work-duties">
+                Preparation of conclusions for various design solutions
+              </li>
+              <li class="work-duties">
+                Control of energy consumption in all departments
+              </li>
+            </ul>
+          </div>
         </div>
 
         <!-- Education-->
-        <div>
-          <h3>Education</h3>
-          <h4>Donbass State Machine-Building Academy</h4>
-          <p>Electromechanical automation systems and electric drive</p>
-          <p>2007 - 2011</p>
+        <div class="education-container">
+          <h3 class="education-position">Education</h3>
+          <h4 class="education-institute">Donbass State Machine-Building Academy</h4>
+          <p class="education-profession">Electromechanical automation systems and electric drive</p>
+          <p class="education-period">September 2007 - July 2011 | Ukraine</p>
         </div>
       </div>
 
